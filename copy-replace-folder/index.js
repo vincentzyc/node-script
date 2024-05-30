@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const currentPath = './';
-const sourcePath = './junbo-haokaxuanhao/pages/h5';
+const sourcePath = './xxx/pages/h5';
 const extraFolder = ['.git', '.vscode'];
 
 fs.readdir(currentPath, { withFileTypes: true }, (err, files) => {
